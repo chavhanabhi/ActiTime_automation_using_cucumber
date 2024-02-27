@@ -9,6 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 				"src/test/resources/org/features/DashboardPage_Background.feature",
 				"src/test/resources/org/features/TasksPage.feature",
 				"src/test/resources/org/features/UsersPage.feature"},
+		//features = {"src/test/resources/org/features/UsersPage.feature"},
 		//features = {"src/test/resources/org/features/TasksPage.feature"},
 		glue = {"org/stepDefinitions","org/applicationHooks"},
 		monochrome = true,

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.401" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Tasks page features" name="Deleting a customer" time="6.225">
+<system-out><![CDATA[
+Given User is on login page.................................................passed
+When User enters username...................................................passed
+And User enters password....................................................passed
+And User click on login button..............................................passed
+Then Dashboard page is displayed............................................passed
+When User clicks on tasks button............................................passed
+Then Tasks page is displayed................................................passed
+When User clicks on search field............................................passed
+And User enters customer name for search....................................passed
+And User clicks on edit button of that customer.............................passed
+And User clicks on action button............................................passed
+And User clicks on delete button............................................passed
+And User clicks on delete permanently button................................passed
+]]></system-out>
+</testcase>
+</testsuite>

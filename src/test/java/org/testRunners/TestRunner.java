@@ -5,9 +5,11 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		//features = {"src/test/resources/org/features/LoginPage.feature","src/test/resources/org/features/DashboardPage_Background.feature"
-		//		,"src/test/resources/org/features/TasksPage.feature"},
-		features = {"src/test/resources/org/features/TasksPage.feature"},
+		features = {"src/test/resources/org/features/LoginPage.feature",
+				"src/test/resources/org/features/DashboardPage_Background.feature",
+				"src/test/resources/org/features/TasksPage.feature",
+				"src/test/resources/org/features/UsersPage.feature"},
+		//features = {"src/test/resources/org/features/TasksPage.feature"},
 		glue = {"org/stepDefinitions","org/applicationHooks"},
 		monochrome = true,
 		dryRun = false,

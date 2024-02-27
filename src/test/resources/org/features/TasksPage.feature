@@ -9,14 +9,14 @@ Background:
 			When User clicks on tasks button
 			Then Tasks page is displayed
 		
-#@smoke
-#Scenario: Add new customer
-#	  	When User clicks on add new button
-#	  	And User click on new customer button
-#	  	And User enters customer name
-#	  	And User enters description
-#	  	And User clicks on create customer button
-#	  	Then Verify new customer is created
+@smoke
+Scenario: Add new customer
+	  	When User clicks on add new button
+	  	And User click on new customer button
+	  	And User enters customer name
+	  	And User enters description
+	  	And User clicks on create customer button
+	  	Then Verify new customer is created
 
 @smoke
 Scenario: Deleting a customer

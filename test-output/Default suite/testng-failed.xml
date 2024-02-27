@@ -6,7 +6,7 @@
       <class name="org.testRunners.TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="runScenario" invocation-numbers="8 9 10 11"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- org.testRunners.TestRunner -->
